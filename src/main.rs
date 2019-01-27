@@ -10,7 +10,7 @@ fn main() {
 
     let mut events_loop = glium::glutin::EventsLoop::new();
     let window = glium::glutin::WindowBuilder::new();
-    let context = glium:    :glutin::ContextBuilder::new();
+    let context = glium::glutin::ContextBuilder::new();
     let display = glium::Display::new(window, context, &events_loop).unwrap();
 
     let prog = glium::Program::from_source(&display, include_str!("../assets/sprite.vert"), include_str!("../assets/sprite.frag"), None);
