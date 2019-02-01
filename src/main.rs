@@ -4,6 +4,8 @@ extern crate image;
 
 mod assets;
 mod vertex;
+mod world;
+mod aabb;
 
 fn main() {
     use glium::{glutin, Surface};
