@@ -17,6 +17,7 @@ pub struct V3i {
     pub z: usize
 }
 
+#[derive(Debug, Clone, Copy)]
 pub struct AABB {
     pub pos: V3i,
     pub size: V3i

@@ -6,6 +6,7 @@ mod assets;
 mod vertex;
 mod world;
 mod aabb;
+mod render;
 
 fn main() {
     use glium::{glutin, Surface};
